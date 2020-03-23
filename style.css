@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+background: linear-gradient(208deg, #f82f2f, #0329e1, #fa917c);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 17s ease infinite;
+animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:73% 0%}
+    50%{background-position:28% 100%}
+    100%{background-position:73% 0%}
+}
+
+.box {
+width:100%;
+height:100vh;
+margin: 0px;
+padding: 10vw;
+}
+
+h1 {
+  color:black;
+  font-family: 'Abel', sans-serif;
+  font-size: 8vw;
+  text-align: center;
+  vertical-align:mid;
+  }
+  
+h2 {
+color:black;
+font-family: 'Share Tech Mono', monospace;
+font-size: 4vw;
+text-align: center;
+vertical-align: mid;
+}
+
+#lines {
+width:20vw;
+height:auto;
+margin-left:30vw;
+margin-right:auto;
+mix-blend-mode: lighten;
+}
