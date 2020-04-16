@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+nav {
+	width: 82vw;
+	height:auto;
+	margin:0px;
+	top:0;
+	position:fixed;
+	left:0;
+	padding:1vw 9vw 1vw 9vw;
+	background-color: #A3A3A3;
+	z-index: 1;
+}
+
+header {
+	display: inline;
+	width: 20vw;
+	margin:0px;
+	left:0;
+}
+
+header img {
+	width:2vw;
+	height:auto;
+	margin:0px;
+	display: inline-block;
+}
+
+h1 {
+	display: inline;
+	font-size: 2em;
+}
+
+nav ul {
+	display: inline-block;
+	text-align: right;
+	width:62vw;
+	margin:0px;
+	right:0;
+}
+
+nav li {
+	display: inline;
+	padding: 0px 0px 0px 3vw;
+	margin:0px;
+}
+
+.box {
+	margin: 11vw 9vw 5vw 9vw;
+	width: 82vw;
+}
+
+.flex-container {
+	display: flex;
+	height:auto;
+	margin-bottom: 4vw;
+	width: 82vw;
+	justify-content: center;
+}
+
+#headshot {
+	margin: 0px;
+	left:0;
+	padding:0px;
+	width: 26vw;
+	height: 32.5vw;
+}
+
+#maintext {
+	padding: 4vw 0px 0px 8.4vw;
+}
+
+figure {
+	margin: 0px 6vw 0px 6vw;
+	justify-content: center;
+}
+
+figure img {
+	height:  15vw;
+	width: auto;
+}
+
+figcaption {
+	text-align: center;
+	padding-top: 1vw;
+}
+
+footer {
+	width: 82vw;
+	margin:0px;
+	padding:1vw 9vw 1vw 9vw;
+	left:0;
+	bottom:0;
+	background-color: #5e5e5e;
+}
+
+
+
+tbody {
+	width: 82vw;
+	height:auto;
+	margin:0px;
+}
