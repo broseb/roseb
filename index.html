@@ -2,31 +2,100 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Rose B.org</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<title>Roseb.org</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div class="box">
-  <h1>Rose B.org</h1>
-  <h2>We look forward to conducting business with you</h2>
-    <img id="lines" src="https://66.media.tumblr.com/7149c6fab7147b84c9f81b1bf9b438a3/tumblr_nrf5t29TwA1r4mh0bo1_540.gif">
-  </div>
-  <!-- Default Statcounter code for Roseb.org
-https://roseb.org/ -->
-<script type="text/javascript">
-var sc_project=12215981; 
-var sc_invisible=1; 
-var sc_security="680db8ac"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="free web stats"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/12215981/0/680db8ac/1/"
-alt="free web stats"></a></div></noscript>
-<!-- End of Statcounter Code -->
+	
+	<nav>
+		<header><img src="IMG/RoseB-logo.png"> <h1>Roseb.org</h1></header>
+		<ul id="navlinks">
+			<li><a onClick="bringout(about, faq, contact)">About</a></li>
+				<div class="hidden" id="about"><button class="closebutton" onClick="bringout(about)">
+					<svg width="18px" height="18px" viewBox="0 0 18 18">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-375.000000, -7.000000)" fill="#FFFFFF">
+								<path d="M375,7 L375,25 L393,25 L393,7 L375,7 Z M385.938016,17.3496772 L388.883606,20.3008718 C389.038798,20.4563595 389.038798,20.7278912 388.883606,20.8833828 C388.728413,21.0388744 388.457397,21.0388705 388.302201,20.8833828 L385.356611,17.9321881 C384.601096,17.1752345 383.398828,17.1752345 382.663158,17.9321881 L379.6978,20.8833828 C379.542608,21.0388705 379.271592,21.0388705 379.116396,20.8833828 C378.961199,20.7278951 378.961203,20.4563634 379.116396,20.3008718 L382.061985,17.3496772 C382.817501,16.5927236 382.817501,15.3881686 382.061985,14.6510981 L379.116396,11.6991267 C378.961203,11.543639 378.961203,11.2721074 379.116396,11.1166158 C379.271588,10.9611281 379.542604,10.9611281 379.6978,11.1166158 L382.64339,14.0685871 C383.398906,14.8255407 384.601173,14.8255407 385.336844,14.0685871 L388.282433,11.1173925 C388.437626,10.9619048 388.708642,10.9619048 388.863838,11.1173925 C389.01903,11.2728802 389.01903,11.5444118 388.863838,11.6999034 L385.937822,14.6510981 C385.182306,15.3883434 385.182306,16.6118299 385.937822,17.3496772 L385.938016,17.3496772 Z"></path>
+							</g>
+						</g>
+					</svg>
+					</button><h2>About</h2><p>Roseb.org splits her time between living in New York City and a state of anxiety. For more information, contact the site administrator.</p></div>
+			<li><a onClick="bringout(faq, about, contact)">FAQ</a></li>
+				<div class="hidden" id="faq"><button class="closebutton" onClick="bringout(faq)">
+					<svg width="18px" height="18px" viewBox="0 0 18 18">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-375.000000, -7.000000)" fill="#FFFFFF">
+								<path d="M375,7 L375,25 L393,25 L393,7 L375,7 Z M385.938016,17.3496772 L388.883606,20.3008718 C389.038798,20.4563595 389.038798,20.7278912 388.883606,20.8833828 C388.728413,21.0388744 388.457397,21.0388705 388.302201,20.8833828 L385.356611,17.9321881 C384.601096,17.1752345 383.398828,17.1752345 382.663158,17.9321881 L379.6978,20.8833828 C379.542608,21.0388705 379.271592,21.0388705 379.116396,20.8833828 C378.961199,20.7278951 378.961203,20.4563634 379.116396,20.3008718 L382.061985,17.3496772 C382.817501,16.5927236 382.817501,15.3881686 382.061985,14.6510981 L379.116396,11.6991267 C378.961203,11.543639 378.961203,11.2721074 379.116396,11.1166158 C379.271588,10.9611281 379.542604,10.9611281 379.6978,11.1166158 L382.64339,14.0685871 C383.398906,14.8255407 384.601173,14.8255407 385.336844,14.0685871 L388.282433,11.1173925 C388.437626,10.9619048 388.708642,10.9619048 388.863838,11.1173925 C389.01903,11.2728802 389.01903,11.5444118 388.863838,11.6999034 L385.937822,14.6510981 C385.182306,15.3883434 385.182306,16.6118299 385.937822,17.3496772 L385.938016,17.3496772 Z"></path>
+							</g>
+						</g>
+					</svg>
+					</button>
+				<h2>FAQ</h2>
+					<p><span class="question">Returning an unwanted item?</span></p>
+				<p>To support the current restrictions in place due to Covid-19, we’ve extended our returns timeframe. If you return an order within 90 days of it being delivered or available for collection, you’ll get a full refund to your original payment method. If you return after 90 days, you’ll get a gift voucher locked to your account.</p>
+
+					<p><br><span class="question">Where do I drop my keys?</span></p>
+				<p>Drop your keys in the secure kiosk, typically located in the lobby of your office building. On your service day, you will receive an email with details about the exact location of the Kiosk and which number box to place your key in. Leave your key and take the key from the lockbox with you. We will notify you when your service is complete and your keys are back in the box at the end of the day.</p>
+
+					<p><br><span class="question">Think you've been phished?</span></p>
+				<p>If you see strange activity or unfamiliar posts on your account page, please change your password immediately and manually delete the ads.</p>
+
+					<p><br><span class="question">Are your dairy ingredients pasteurized?</span></p>
+				<p>No.</p>
+				</div>
+			<li><button class="cta blue" onClick="bringout(contact, faq, about)">Contact</button></li>
+				<div class="hidden" id="contact">
+					<div id="vibecheck"><p>Please initialize vibe check for verification.</p><button class="cta red" onClick="checkit()">Check Vibes</button></div>
+					<button class="closebutton" onClick="bringout(contact)">
+					<svg width="18px" height="18px" viewBox="0 0 18 18">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-375.000000, -7.000000)" fill="#FFFFFF">
+								<path d="M375,7 L375,25 L393,25 L393,7 L375,7 Z M385.938016,17.3496772 L388.883606,20.3008718 C389.038798,20.4563595 389.038798,20.7278912 388.883606,20.8833828 C388.728413,21.0388744 388.457397,21.0388705 388.302201,20.8833828 L385.356611,17.9321881 C384.601096,17.1752345 383.398828,17.1752345 382.663158,17.9321881 L379.6978,20.8833828 C379.542608,21.0388705 379.271592,21.0388705 379.116396,20.8833828 C378.961199,20.7278951 378.961203,20.4563634 379.116396,20.3008718 L382.061985,17.3496772 C382.817501,16.5927236 382.817501,15.3881686 382.061985,14.6510981 L379.116396,11.6991267 C378.961203,11.543639 378.961203,11.2721074 379.116396,11.1166158 C379.271588,10.9611281 379.542604,10.9611281 379.6978,11.1166158 L382.64339,14.0685871 C383.398906,14.8255407 384.601173,14.8255407 385.336844,14.0685871 L388.282433,11.1173925 C388.437626,10.9619048 388.708642,10.9619048 388.863838,11.1173925 C389.01903,11.2728802 389.01903,11.5444118 388.863838,11.6999034 L385.937822,14.6510981 C385.182306,15.3883434 385.182306,16.6118299 385.937822,17.3496772 L385.938016,17.3496772 Z"></path>
+							</g>
+						</g>
+					</svg>
+					</button><h2>Contact</h2><div class="contactitem">Name</div><div class="contactitem">Email</div><div class="contactitem">Subject</div><div class="contactitem" id="messagebox">Message</div><button class="cta blue" id="contactbutton">Submit</button></div>
+		</ul>
+	</nav>
+	
+	
+	<div class="box">
+		<div class="flex-container" id="block1">
+		<img id="headshot" src="IMG/Frame 0.png">
+		<div id="stripes"><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div></div>
+		<div id="maintext">
+			<h2>Let's conduct <strong>business</strong> together.</h2>
+			<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+			<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+			<button class="cta red" onClick="bringout(contact, faq, about)">Contact</button>
+		</div>
+			</div>
+	
+	</div>
+	<div id="values">
+		<h2>Company <strong>Values</strong></h2>
+		<div class="flex-container" id="steps">
+			<figure id="globalization"><div class="cover"></div><img src="IMG/globalization.png"><figcaption>Globalization</figcaption></figure>
+			<figure id="innovation"><div class="cover"></div><img src="IMG/innovation.png"><figcaption>Innovation</figcaption></figure>
+			<figure id="synergy"><div class="cover"></div><img src="IMG/synergy.png"><figcaption>Synergy</figcaption></figure>
+		</div></div>
+	
+	
+	
+	<footer>
+		<div id="footerone"><div><img src="IMG/RoseB-logo.png"> <h1>Roseb.org</h1></div><div><p><br>Copyright 2022, Roseb.org Industries</p></div></div>
+		<div id="footertwo"><p>Globalization, innovation, and synergy.</p></div>
+		<div id="footerthree"><ul id="footlinks">
+			<li><a onClick="bringout(about, faq, contact)">About</a></li>
+			<li><a onClick="bringout(faq, about, contact)">FAQ</a></li>
+			<li><a onClick="bringout(contact, faq, about)">Contact</a></li>
+		</ul>
+		<div id="social"><a href="https://www.instagram.com/_rose_rose_rose_rose/"><img src="IMG/Instagram.png"></a><a href="https://twitter.com/style_children"><img src="IMG/Twitter.png"></a></div></div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
