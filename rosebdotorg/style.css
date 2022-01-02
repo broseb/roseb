@@ -480,21 +480,21 @@ footer img {
 	}
 	
 	h2 {
-	font-size: 45px;
+	font-size: 50px;
 	}
 	
 	a {
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 6px;
 	}
 	
 	p {
-	font-size: 18px;
+	font-size: 25px;
 	line-height: 2;
 }
 	
 	button.cta {
-	font-size: 20px;
+	font-size: 22px;
 	letter-spacing: 6px;
 		width: 22vw;
 	padding-top: 22px;
@@ -558,7 +558,7 @@ footer img {
     right: 0;
 }
 	#about p {
-		font-size: 23px;
+		font-size: 27px;
 	}
 
 #faq {
@@ -569,12 +569,12 @@ footer img {
     right: 0;
 }
 	#faq p {
-		font-size: 23px;
+		font-size: 27px;
 	}
 	
 		.question {
-	font-size: 25px;
-	letter-spacing: 2px;
+	font-size: 30px;
+	letter-spacing: 2.5px;
 }
 
 #contact {
@@ -585,7 +585,7 @@ footer img {
     right: 0;
 }
 	#contact p {
-		font-size: 23px;
+		font-size: 27px;
 	}
 	
 	.contactitem {
