@@ -7,10 +7,10 @@ var contact = document.getElementById('contact');
 var vibecheck = document.getElementById('vibecheck');
 var maintext = document.getElementById('maintext');
 var block1 = document.getElementById('block1');
-var xy = document.getElementById('xy');
+var progbar = document.getElementById('progbar');
 		
 
-window.onmousemove = function() {shrinker()};
+
 		
 		
 		
@@ -57,9 +57,14 @@ function bringout(subj, one, two) {
 
 
 function checkit() {
-	vibecheck.innerHTML = "<p>Please initialize vibe check for verification. <br>Vibe check: FAILED <br>Please check back later when you are truly just vibing.</p>";
+	vibecheck.innerHTML = "<p>Please initialize vibe check for verification.</p><div id='progbar'></div><div id='result'></div>";
+	window.setTimeout(progress, 1000);
 }
 
+function progress() {
+	var result = document.getElementById('result');
+	result.innerHTML = "<p>Vibe check: FAILED <br>Please check back later when you are truly just vibing.</p>";
+	}
 
 
 window.addEventListener("load", function() {
@@ -80,5 +85,26 @@ window.addEventListener("resize", function() {
 	}
 	else {
 		block1.style.height = "auto";
+	}
+});
+
+window.addEventListener("load", function() {
+	if (window.matchMedia("(-webkit-min-device-pixel-ratio: 3)").matches) {
+		headshot.setAttribute("src", "IMG/roseb-headshot.gif");
+	}
+	else {
+		window.onmousemove = function() {shrinker()};
+	}
+});
+
+window.addEventListener("load", function() {
+	var dh = window.innerHeight;
+	if (window.matchMedia("(-webkit-min-device-pixel-ratio: 3)").matches) {
+		var mobh = dh - 269;
+		faq.style.maxHeight = mobh + "px";
+	}
+	else {
+		var deskh = dh - 143;
+		faq.style.maxHeight = deskh + "px";
 	}
 });

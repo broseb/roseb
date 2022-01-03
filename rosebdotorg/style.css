@@ -337,7 +337,7 @@ footer img {
 #about {
 	position:absolute;
 	width:19.4vw;
-	padding: 2.5vw 1.3vw;
+	padding: 40px 1.3vw;
 	background-color: #1F2E8F;
 	text-align: left;
 	top:60px;
@@ -350,19 +350,25 @@ footer img {
 	position:absolute;
 	width:25vw;
 	min-width: 347px;
-	padding: 2.5vw 1.3vw;
+	padding: 40px 1.3vw;
 	background-color: #1F2E8F;
 	text-align: left;
 	top:60px;
 	margin-left:-1.3vw;
 	color:#ffffff;
+	overflow: hidden;
+}
+
+#faqinner {
+	max-height: inherit;
+	overflow-y: scroll;
 }
 
 #contact {
 	position:absolute;
 	width:25vw;
 	min-width: 347px;
-	padding: 2.5vw 1.3vw;
+	padding: 40px 1.3vw;
 	background-color: #1F2E8F;
 	text-align: left;
 	top:60px;
@@ -399,15 +405,35 @@ footer img {
 	text-align: center;
 	padding: 2.5vw 1.3vw;
 	border: solid 3px #c91c15;
+	animation-name: appear;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+#progbar {
+	height: 15px;
+	width: 80%;
+	background-color: #c91c15;
+	margin: 0 10% 2vw 10%;
+	animation-name: load;
+	animation-duration: 1s;
+}
+
+@keyframes load {
+	from {width: 20%;}
+	to {width: 80%;}
 }
 
 #vibecheck p {
 	margin-bottom: 2vw;
 }
 
-#contact:hover>#vibecheck {
-	opacity: 1;
-}
 
 #contact:hover>#contactbutton {
 	color: #5F658A;
@@ -552,7 +578,7 @@ footer img {
 	
 	#about {
 	width:81vw;
-	padding: 7vw 5.5vw;
+	padding: 68px 5.5vw;
 	top:128px;
 	margin-right: 4vw;
     right: 0;
@@ -563,24 +589,24 @@ footer img {
 
 #faq {
 	width:81vw;
-	padding: 7vw 5.5vw;
+	padding: 68px 5.5vw;
 	top:128px;
 	margin-right: 4vw;
     right: 0;
 }
 	#faq p {
-		font-size: 27px;
+		font-size: 12.5px;
 		margin: 0px;
 	}
 	
 		.question {
-	font-size: 30px;
-	letter-spacing: 2.5px;
+	font-size: 14px;
+	letter-spacing: 2.6px;
 }
 
 #contact {
 	width:81vw;
-	padding: 7vw 5.5vw;
+	padding: 68px 5.5vw;
 	top:128px;
 	margin-right: 4vw;
     right: 0;
