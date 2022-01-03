@@ -89,7 +89,7 @@ window.addEventListener("resize", function() {
 });
 
 window.addEventListener("load", function() {
-	if (window.matchMedia("(-webkit-min-device-pixel-ratio: 3)").matches) {
+	if (window.matchMedia("(max-width: 980px)").matches && window.matchMedia("(min-width: 781px)").matches) {
 		headshot.setAttribute("src", "IMG/roseb-headshot.gif");
 	}
 	else {
@@ -99,7 +99,7 @@ window.addEventListener("load", function() {
 
 window.addEventListener("load", function() {
 	var dh = window.innerHeight;
-	if (window.matchMedia("(-webkit-min-device-pixel-ratio: 3)").matches) {
+	if (window.matchMedia("(max-width: 980px)").matches && window.matchMedia("(min-width: 781px)").matches) {
 		var mobh = dh - 269;
 		faq.style.maxHeight = mobh + "px";
 	}
