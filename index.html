@@ -22,6 +22,25 @@
 
   gtag('config', 'G-21DKPYRDVP');
 </script>
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+     
+      <script>
+     
+    /* Add "https://api.ipify.org?format=json" statement
+               this will communicate with the ipify servers in
+               order to retrieve the IP address $.getJSON will
+               load JSON-encoded data from the server using a
+               GET HTTP request */
+                
+    $.getJSON("https://api.ipify.org?format=json", function(data) {
+         
+        if (data.ip == "76.28.30.119") {
+			document.body.setAttribute('class', 'hidden');
+		}
+    })
+    </script>
 </head>
 
 <body>
@@ -84,6 +103,7 @@
 		<img id="headshot" src="IMG/Frame 0.png">
 		<div id="stripes"><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div></div>
 		<div id="maintext">
+			<p id="gfg"></p>
 			<h2>Let's conduct <strong>business</strong> together.</h2>
 			<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
 			<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
@@ -118,7 +138,7 @@
 var sc_project=12697220; 
 var sc_invisible=1; 
 var sc_security="18abb66d"; 
-</script>
+</script> 
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js" async></script>
 <noscript><div class="statcounter"><a title="Web Analytics"

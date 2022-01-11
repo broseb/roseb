@@ -12,7 +12,7 @@ var progbar = document.getElementById('progbar');
 
 
 		
-		
+	
 		
 		var shrinker = function() {
 			  var wya = event.clientX;
